@@ -28,3 +28,4 @@ describe 'index page' do
     expect(page).to have_link(second_post.title, href: post_path(second_post))
   end
 end
+
